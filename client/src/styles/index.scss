@@ -1,0 +1,25 @@
+*{
+    margin :0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+#auth{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        flex-direction: column;
+        p{
+            span{
+                cursor: pointer;
+                color: dodgerblue;
+            }
+        }
+
+    }
+}
